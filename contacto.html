@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h3>Pongase en contacto</h3>
+    <p>Para ponerse en contacto con nosotros debera completar lo siguiente:</p>
+    <form action="" method="post">
+        <label for="input_nombre">Nombre:</label>
+        <input type="text" placeholder="Nombre" name="nombre" required>
+        <br><br>                
+        <label for="input_apellido">Apellido:</label>
+        <input type="text" placeholder="Apellido" name="apellido" required>
+        <br><br>
+        <label for="input_numbero"> Edad:</label>
+        <input id="input_numbero"placeholder="Edad" name="edad" type="number" required>
+        <br><br>
+        <label for="input_email">Email:</label>
+        <input id="input_email" placeholder="Email" name="email" type="email" required>
+        <br><br>
+        <p>Identifique su sexo:</p>
+        <label for="hombre">Hombre:</label>
+        <input id="hombre" name="sexo" value="hombre" type="radio">
+   
+        <label for="mujer">Mujer:</label>
+        <input id="mujer" name="sexo" value="mujer" type="radio">
+      
+        <label for="otros">Otros:</label>
+        <input id="otros" name="sexo" value="otros" type="radio">
+        <br><br>
+        <label for="contamos">Cuentanos:</label>
+        <br>
+        <textarea name="cuentanos" id="cuentanos" rows="10" cols="60" placeholder="Cuentanos como podemos ayudarte"></textarea>
+        <br><br>
+        <label for="condiciones">Termino y condiciones:</label>
+        <br>      
+        <textarea name="condiciones" id="condiciones" cols="30" rows="5">Estas son las condiciones XD</textarea>
+        <br>
+        <label for="acepto">Acepto terminos y condiciones</label>
+        <input id="acepto" type="checkbox" name="acepto" value="si">
+        <br><br>
+        <input type="submit">
+
+
+
+
+    </form>
+
+    
+</body>
+</html>
